@@ -1,16 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package controller;
 
 import view.Menu;
 import common.Algorithm;
 
-/**
- *
- * @author huypd
- */
 public class SearchFileProgram extends Menu<String> {
     static String[] options = {"Count Word In File", "Find File By Word", "Exit"};
     Algorithm ar;
